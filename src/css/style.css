@@ -1,6 +1,229 @@
 body {
-    font-family: "Bai Jamjuree", serif;
+    background: url(../images/bg-header-desktop.png) no-repeat center -6%;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+
+.intro {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+    }
+
+    .info {
+        margin: 3% 0 2.3%;
+
+        h1 {
+            font-size: 250%;
+        }
+
+        p {
+            max-width: 650px;
+            margin: 2% auto;
+        }
+    }
+}
+
+.track {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .info {
+        text-align: center;
+
+        h2 {
+            font-size: 210%;
+            margin-bottom: 2%;
+        }
+
+        p {
+            max-width: 700px;
+        }
+    }
+
+    .features {
+        display: flex;
+        width: 100%;
+        margin: 5% 0 10%;
+        gap: 10%;
+
+        img {
+            position: relative;
+            right: 2%;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            padding-top: 4%;
+            gap: 15%;
+
+            h3 {
+                font-size: 130%;
+                margin-bottom: 2%;
+            }
+
+            p {
+                max-width: 400px;
+                line-height: 140%;
+            }
+        }
+    }
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .info {
+        h2 {
+            font-size: 210%;
+            margin-bottom: 2%;
+        }
+
+        p {
+            max-width: 700px;
+        }
+    }
+
+    img {
+        max-width: 100%;
+        margin-top: 5%;
+    }
+}
+
+.workflow {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .info {
+        h2 {
+            font-size: 210%;
+            margin-bottom: 4%;
+        }
+    }
+
+    .features {
+        margin-top: 4%;
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+
+        img {
+            max-width: 100%;
+            margin-bottom: 3%;
+        }
+
+        h3 {
+            margin-block: 4%;
+        }
+
+        p {
+            max-width: 420px;
+            line-height: 170%;
+        }
+    }
+}
+
+.enterprises {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clipboard {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .info {
+        margin-bottom: 3%;
+
+        h2 {
+            font-size: 210%;
+            margin-bottom: 2%;
+        }
+
+        p {
+            max-width: 700px;
+            line-height: 150%;
+        }
+    }
+}
+
+footer {
+    margin-top: 10%;
+    padding: 30px 12%;
+    color: hsl(210, 10%, 33%);
+
+    .container {
+        width: 100%;
+        display: flex;
+        a {
+            transition: 0.2s ease-in-out;
+            &:hover {
+                color: hsl(171, 66%, 44%);
+            }
+        }
+
+        img {
+            width: 5%;
+            height: 5%;
+        }
+
+        .navegacao {
+            display: flex;
+            margin-left: 10%;
+            margin-right: 50%;
+            gap: 50%;
+    
+            ul li:not(:last-child) {
+                padding-bottom: 15px;
+            }
+    
+            ul li {
+                width: 210%;
+            }
+        }
+    
+        .socials ul {
+            display: flex;
+            align-items: center;
+            gap: 25%;
+            .fa-square-facebook,
+            .fa-instagram {
+                width: 24px;
+                height: 24px;
+                color: #4C545C;
+                transition: 0.3s ease-in-out;
+            }
+            .fa-twitter {
+                width: 24px;
+                height: 20px;
+                color: #4C545C;
+                transition: 0.2s ease-in-out;
+            }
+            .fa-square-facebook:hover, .fa-instagram:hover, .fa-twitter:hover {
+                color: hsl(171, 66%, 44%);
+            }
+        }
+    }
 }

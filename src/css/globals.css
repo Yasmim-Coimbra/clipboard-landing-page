@@ -1,0 +1,46 @@
+body {
+    font-family: "Bai Jamjuree", serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    Font-size: 18px;
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+.botoes button {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.botoes button.ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 2.5px 0 0 hsl(171, 65%, 30%);
+}
+.botoes button.ios:hover {
+    background-color: hsl(171, 66%, 44%, 0.8);
+    box-shadow: 0 2.5px 0 0 hsl(171, 65%, 30%, 0.8);
+}
+.botoes button.mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 2.5px 0 0 hsl(233, 41%, 35%);
+}
+.botoes button.mac:hover {
+    background-color: hsl(233, 100%, 69%, 0.8);
+    box-shadow: 0 2.5px 0 0 hsl(233, 41%, 35%, 0.8);
+}
