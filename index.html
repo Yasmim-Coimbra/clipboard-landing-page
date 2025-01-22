@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
 
   <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/globals.css">
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="./src/css/responsive.css">
 
@@ -15,7 +16,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
@@ -24,38 +27,43 @@
       <img src="./src/images/logo.svg" alt="copyright logo">
       <div class="info">
         <h1>A history of everything you copy</h1>
-        <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+        <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your
+          devices.</p>
       </div>
       <div class="botoes">
-        <button>Download for iOS</button>
-        <button>Download for Mac</button>
+        <button class="ios">Download for iOS</button>
+        <button class="mac">Download for Mac</button>
       </div>
     </section>
     <section class="track">
       <div class="info">
         <h2>Keep track of your snippets</h2>
-        <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+        <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately
+          on all your devices. Our Mac and iOS apps will help you organize everything.</p>
       </div>
       <section class="features">
         <img src="./src/images/image-computer.png" alt="computer image">
-        <section class="quick-search">
-          <h3>Quick Search</h3>
-          <p>Easily search your snippets by content, category, web address, application, and more.</p>
-        </section>
-        <section class="icloud-sync">
-          <h3>iCloud Sync</h3>
-          <p>Instantly saves and syncs snippets across all your devices.</p>
-        </section>
-        <section class="history">
-          <h3>Complete History</h3>
-          <p>Retrieve any snippets from the first moment you started using the app.</p>
+        <section class="text">
+          <section class="quick-search">
+            <h3>Quick Search</h3>
+            <p>Easily search your snippets by content, category, web address, application, and more.</p>
+          </section>
+          <section class="icloud-sync">
+            <h3>iCloud Sync</h3>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
+          </section>
+          <section class="history">
+            <h3>Complete History</h3>
+            <p>Retrieve any snippets from the first moment you started using the app.</p>
+          </section>
         </section>
       </section>
     </section>
     <section class="access">
       <div class="info">
         <h2>Access Clipboard anywhere</h2>
-        <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+        <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple
+          clicks.</p>
       </div>
       <img src="./src/images/image-devices.png" alt="devices image">
     </section>
@@ -66,14 +74,17 @@
       </div>
       <section class="features">
         <section class="blacklists">
+          <img src="./src/images/icon-blacklist.svg" alt="list icon">
           <h3>Create blacklists</h3>
           <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </section>
         <section class="snippets">
+          <img src="./src/images/icon-text.svg" alt="text icon">
           <h3>Plain text snippets</h3>
           <p>Remove unwanted formatting from copied text for a consistent look.</p>
         </section>
         <section class="preview">
+          <img src="./src/images/icon-preview.svg" alt="eye icon">
           <h3>Sneak preview</h3>
           <p>Quick preview of all snippets on your Clipboard for easy access.</p>
         </section>
@@ -88,36 +99,45 @@
     </section>
     <section class="clipboard">
       <div class="info">
-        <h1>Clipboard for iOS and Mac OS</h1>
-        <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+        <h2>Clipboard for iOS and Mac OS</h2>
+        <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start
+          adding to your clipboard.</p>
       </div>
       <div class="botoes">
-        <button>Download for iOS</button>
-        <button>Download for Mac</button>
+        <button class="ios">Download for iOS</button>
+        <button class="mac">Download for Mac</button>
       </div>
     </section>
   </main>
   <footer>
-    <img src="./src/images/logo.svg" alt="copyright logo">
-    <nav class="navegacao">
-      <ul class="links">
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Press Kit</a></li>
-        <li><a href="#">Install Guide</a></li>
-      </ul>
-    </nav>
-    <div class="socials">
-      <ul>
-        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      </ul>
+    <div class="container">
+      <img src="./src/images/logo.svg" alt="copyright logo">
+      <nav class="navegacao">
+        <ul class="links">
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Press Kit</a></li>
+        </ul>
+        <ul class="links">
+          <li><a href="#">Install Guide</a></li>
+        </ul>
+      </nav>
+      <div class="socials">
+        <ul>
+          <li><a href="#"><i class="fab fa-square-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+    integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
