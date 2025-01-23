@@ -1,0 +1,210 @@
+@media (max-width: 1264px) {
+    .track {
+        .features {
+            gap: 5%;
+        }
+    }
+}
+
+@media (max-width: 1206px) {
+    .track {
+        .features {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                position: static;
+                max-width: 70%;
+            }
+
+            .text {
+                flex-direction: row;
+                text-align: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 5% 0 0 0;
+                section {
+                    padding: 5% 2%;
+                }
+                }
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .workflow {
+        .features {
+            flex-wrap: wrap;
+            align-items: center;
+            section {
+                padding: 5%;
+            }
+        }
+    }
+    .enterprises {
+        flex-wrap: wrap;
+        gap: 0;
+        img {
+            padding: 5%;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    footer {
+        padding-inline: 5%;
+        .socials ul {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 564px) {
+    body {
+        background: url(../images/bg-header-mobile.png) no-repeat center -13%/contain;
+    }
+
+    .intro {
+        margin-top: 20%;
+        .info {
+            margin: 10% 0 5%;
+            h1 {
+                font-size: 210%;
+                max-width: 350px;
+                margin: 0 auto;
+            }
+            p {
+                max-width: 345px;
+                margin-top: 5%;
+            }
+        }
+    }
+    
+    .track {
+        margin-top: 32%;
+        .info {
+            h2 {
+                font-size: 180%;
+                margin-bottom: 5%;
+                max-width: 350px;
+                margin-inline: auto;
+            }
+            p {
+                max-width: 350px;
+            }
+        }
+        .features {
+            margin: 15% 0 35%;
+            .text {
+                padding-top: 8%;
+                h3 {
+                    font-size: 150%;
+                }
+                p {
+                    max-width: 340px;
+                }
+            }
+        }
+    }
+
+    .access {
+        .info {
+            margin-bottom: 5%;
+            h2 {
+                font-size: 180%;
+                max-width: 300px;
+                margin: 0 auto;
+                margin-bottom: 5%;
+            }
+            p {
+                max-width: 350px;
+            }
+        }
+    }
+
+    .workflow {
+        margin-top: 22%;
+        .info {
+            h2 {
+                font-size: 180%;
+                max-width: 350px;
+                margin-inline: auto;
+            }
+            p {
+                max-width: 350px;
+            }
+        }
+        .features {
+            margin-top: 10%;
+            section {
+                padding-block: 7%;
+            }
+            h3 {
+                font-size: 150%;
+            }
+            p {
+                max-width: 350px;
+            }
+        }
+    }
+
+    .enterprises {
+        margin-top: 20%;
+        flex-direction: column;
+        img {
+            padding-block: 10%;
+        }
+    }
+
+    .clipboard {
+        margin-top: 28%;
+        .info {
+            margin-bottom: 5%;
+            h2 {
+                font-size: 180%;
+                max-width: 350px;
+                margin-inline: auto;
+                margin-bottom: 5%;
+            }
+            p {
+                max-width: 345px;
+            }
+        }
+    }
+
+    footer {
+        padding-bottom: 50px;
+        margin-top: 25%;
+        .container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 10%;
+                padding-bottom: 8%;
+            }
+            .navegacao {
+                flex-direction: column;
+                margin-inline: 0;
+                width: 50dvw;
+                justify-content: center;
+                ul li {
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 30px;
+                }
+            }
+            .socials ul {
+                margin-top: 10%;
+                flex-wrap: nowrap;
+                justify-content: center;
+                width: 50dvw;
+                gap: 12%;
+                .fa-square-facebook, .fa-instagram, .fa-twitter {
+                    scale: 1.25;
+                }
+            }
+        }
+    }
+}
