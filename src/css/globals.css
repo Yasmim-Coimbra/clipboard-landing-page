@@ -2,6 +2,10 @@ body {
     font-family: "Bai Jamjuree", serif;
 }
 
+main, footer {
+    padding-inline: 5%;
+}
+
 h1,
 h2,
 h3 {
@@ -12,6 +16,7 @@ h3 {
 p {
     color: hsl(201, 11%, 66%);
     Font-size: 18px;
+    line-height: 180%;
 }
 
 .botoes {
@@ -43,4 +48,16 @@ p {
 .botoes button.mac:hover {
     background-color: hsl(233, 100%, 69%, 0.8);
     box-shadow: 0 2.5px 0 0 hsl(233, 41%, 35%, 0.8);
+}
+
+@media (max-width: 564px) {
+    .botoes {
+        flex-direction: column;
+        width: 70%;
+        gap: 20px;
+    }
+    .botoes button {
+        padding: 15px;
+        border-radius: 25px;
+    }
 }
