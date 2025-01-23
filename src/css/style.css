@@ -62,7 +62,7 @@ body {
         .text {
             display: flex;
             flex-direction: column;
-            padding-top: 4%;
+            padding: 4% 5% 0 0;
             gap: 15%;
 
             h3 {
@@ -72,7 +72,6 @@ body {
 
             p {
                 max-width: 400px;
-                line-height: 140%;
             }
         }
     }
@@ -129,12 +128,12 @@ body {
         }
 
         h3 {
+            font-size: 130%;
             margin-block: 4%;
         }
 
         p {
             max-width: 420px;
-            line-height: 170%;
         }
     }
 }
@@ -164,14 +163,13 @@ body {
 
         p {
             max-width: 700px;
-            line-height: 150%;
         }
     }
 }
 
 footer {
     margin-top: 10%;
-    padding: 30px 12%;
+    padding: 40px 12%;
     color: hsl(210, 10%, 33%);
 
     .container {
